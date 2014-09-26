@@ -1,0 +1,77 @@
+$sans-serif: 'Lato', 'Helvetica Neue', Helvetica, sans-serif
+
+*,
+:after,
+:before
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+::selection
+  background-color: #1F8A4C
+
+body
+  background: #72BF7B
+  font-family: $sans-serif
+  font-weight: 400
+  height: 100%
+  overflow: hidden
+  text-align: center
+  width: 100%
+
+h1, .inst
+  color: #f5f3ec
+  font-size: 56px
+  font-weight: 900
+
+a
+  text-decoration: none
+
+div
+  display: none
+
+ul
+  list-style: none
+
+li
+  display: none
+  &:first-child
+    display: block
+
+.inst
+  bottom: 40px
+  display: inline-block
+  font-size: 23px
+  left: 50%
+  margin-left: -97px
+  position: absolute
+
+.table
+  display: table
+  height: 100%
+  overflow: hidden
+  position: absolute
+  text-align: center
+  width: 100%
+.cell
+  display: table-cell
+  vertical-align: middle
+
+.primary
+  border-radius: 60px
+  border: 2px solid #1F8A4C
+  color: white
+  display: inline-block
+  font-family: $sans-serif
+  letter-spacing: 2px
+  padding: 15px 40px
+  position: absolute
+  right: 50px
+  text-transform: uppercase
+  top: 50px
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  z-index: 100
+  &:hover
+    background-color: #1F8A4C
